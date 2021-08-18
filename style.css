@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    width: 100%;
+    margin: auto;
+    font: normal bold 17px/normal tahoma;
+    background: linear-gradient(90deg, #c263e7, #380164);
+}
+
+article {
+    max-width: 80vw;
+    height: 300px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 15%;
+    padding: 5px;
+    overflow: hidden;
+    box-shadow: 7px 7px 15px rgb(65, 55, 55);
+    
+}   
+
+#aviso {
+    visibility: hidden;
+}
+
+article h3 {
+    padding: 10px;
+    color: rgba(96, 13, 145, 0.952);
+    font-size: 25px;
+}
+
+
+#timer {
+    color:rgb(148, 119, 250);
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #ccc;
+    padding: 5px;
+}
+
+#tempo {
+   margin: 10px;
+   
+}
+
+#count {
+    margin: 10px;
+   
+}
+
+#timer {
+    border-radius: 50px;
+    box-sizing:  content-box;
+}
+
+#minutes {
+    border-radius: 4px;
+    padding-left: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+/*-----------------------COLOR BUTTONS---------------------------*/
+
+#start-button{
+    background-color: rgb(130, 245, 155);
+    color: rgb(73, 70, 70);
+}
+#zerar-button{
+    background-color: rgb(243, 234, 149);
+    color: rgb(73, 70, 70);
+}
+#stop-button{
+    background-color: rgb(230, 107, 107);
+    color: rgb(73, 70, 70);
+}
+
+/*--------------------------BUTTONS------------------------------*/
+
+
+#container-buttons{
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    margin: auto;
+    text-align: center;
+}
+
+.buttons {
+    padding: 10px;
+    display: inline-block;
+}
+.buttons button {
+   padding: 7px 20px 7px 20px;
+   font-size: 15px;
+   border-radius: 80px;
+   border: solid;
+   border-width: 2px; 
+}
+
+/*-------------------------HOVER BUTTONS-----------------------*/
+
+#start-button:hover {
+    font-size: 16px;
+    background-color: rgba(27, 248, 27, 0.61);
+    color: rgb(5, 5, 5);
+}
+#zerar-button:hover {
+    font-size: 16px;
+    background-color: rgb(255, 240, 106);
+    color: black;
+}
+#stop-button:hover {
+    font-size: 16px;
+    background-color: rgb(231, 86, 86);
+    color: rgb(0, 0, 0);
+}
+
+
+/*------------------------Responsive-------------------*/
+@media screen and ( max-width: 700px) {
+    article {
+        max-width: 60vh;
+        height: 335px;
+    }
+
+    .buttons {
+        display: block;
+    }
+    .buttons button {
+        padding: 5px 25px 5px 25px;
+        font-size: 15px;
+        border-radius: 5px;
+        border: solid;
+        border-width: 1px; 
+     }
+    
+}
+@media screen and ( max-width: 530px) {
+    article {
+        max-height: 60vh;
+        min-height: 55vh;
+        max-width: 90vw;
+        
+    }
+    p{
+        padding-top: 7rem;
+    }
+
+}
+
+@media screen and ( max-width: 370px) {
+   article {
+       max-width: 330px;
+   }
+
+}

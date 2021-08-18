@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <article class="clock" id="clock">
+
+        <h3> Contador com JavaScript!</h3>
+
+        <div id="tempo">
+            <label for="minutes">Digite o valor em segundos</label> <br><br>
+            <input id="minutes" type="number" placeholder="Ex: 60seg = 1 minuto">
+        </div>
+
+        <div id="count">
+            <div id="timer">00:00</div>
+        </div>
+
+        <div id="container-buttons">
+            <div class="buttons" id="start">
+                <button id="start-button" onclick="clickON()">Start</button>
+    
+            </div>
+
+            <div class="buttons" id="reset">
+                <button id="zerar-button" onclick="ResetClick()">Zerar</button>
+            </div>
+            <div class="buttons" id="stop">
+                <button id="stop-button" onclick="stopClick()">Stop</button>
+            </div>
+        </div>
+        <p id="aviso">Stop para reiniciar</p>
+    </article>
+
+</body>
+
+</html>

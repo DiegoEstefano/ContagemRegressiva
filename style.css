@@ -70,7 +70,7 @@ article h3 {
 
 /*-----------------------COLOR BUTTONS---------------------------*/
 
-#start-button{
+#startButton{
     background-color: rgb(130, 245, 155);
     color: rgb(73, 70, 70);
 }
@@ -97,7 +97,10 @@ article h3 {
 .buttons {
     padding: 10px;
     display: inline-block;
+
 }
+
+
 .buttons button {
    padding: 7px 20px 7px 20px;
    font-size: 15px;
@@ -108,10 +111,11 @@ article h3 {
 
 /*-------------------------HOVER BUTTONS-----------------------*/
 
-#start-button:hover {
+#startButton:hover {
     font-size: 16px;
     background-color: rgba(27, 248, 27, 0.61);
     color: rgb(5, 5, 5);
+
 }
 #zerar-button:hover {
     font-size: 16px;
